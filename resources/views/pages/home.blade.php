@@ -51,8 +51,8 @@
                             </div>
                             <div class="col-10 col-md-9">
                                 <h4><a href="{{ url('posts/'.$newdata->id) }}"> {{mb_substr($newdata->title, 0, 100)}}
-                                        ...</a></h4>
-                                <p>{{mb_substr($newdata->body, 0, 150)}}...</p>
+                                        </a></h4>
+                                <p>{{mb_substr($newdata->body, 0, 150)}}</p>
                                 <div class="views">
                                     <i class="fa fa-clock-o"></i>
                                     <span>{{\Carbon\Carbon::parse($newdata->created_at)->diffForHumans()}}</span>
