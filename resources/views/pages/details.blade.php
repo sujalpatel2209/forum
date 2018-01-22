@@ -69,11 +69,11 @@
                             </div>
                         </div>
                         <div class="col mt-3">
-                            <div class="post-feed">
+                            {{--  <div class="post-feed">
                                 <i class="fa fa-eye" aria-hidden="true"></i>
                                 &nbsp;<span>{{$data['post']->view_count}}</span>
 
-                            </div>
+                            </div>  --}}
                         </div>
                     </div>
                 </div>
